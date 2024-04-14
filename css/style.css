@@ -1,0 +1,237 @@
+:root {
+    --font-family: "Arial", sans-serif;
+    --second-family: "Roboto", sans-serif;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+.hero{
+    background-image: url(../img/Mask\ group\ \(6\).png);
+    background-size: cover;
+    background-position: top;
+    color: #fff;
+    font-family: var(--second-family);
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav__list,.header__contacts-item,.header__contacts-list{
+    display: flex;
+}
+
+.nav__list,.header__contacts-list{
+    padding-top: 50px;
+    column-gap: 34px;
+
+}
+.nav__link,.header__contacts-link,.header__contacts-item{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+.header__contacts-item{
+    column-gap: 2px;
+}
+.logo{
+    padding-top: 16px;
+}
+.hero__desc{
+    margin-top: 180px;
+    margin-bottom: 190px;
+}
+
+.hero__container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.hero__title{
+    font-size: 48px;
+    max-width: 409px;
+    margin-bottom: 20px;
+}
+
+.hero__subtitle{
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.hero__btn{
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 13px 17px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.hero__text{
+    display: flex;
+    margin-top: 37px;
+}
+
+.advantages-list{
+    display: flex;
+    column-gap:125px;
+}
+.advantages-section{
+    min-width:276px;
+    max-width:280px;
+    height: 120px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.advantages__img{
+    margin-left:127px;
+    padding-top:16px;
+    padding-bottom: 14px;
+}
+.advantages-desc{
+    max-width: 235px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+}
+.details{
+    padding-top: 66px;
+    padding-bottom: 90px;
+}
+.title{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 54px;
+    text-align: center;
+    color: #e7e7e7;
+    margin-bottom: 10px;
+}
+.subtitle{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #252525;
+    margin-bottom: 60px;
+}
+.details__subtitle {
+    margin-bottom: 90px;
+}
+.details__list{
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 887px;
+    margin: 0 auto;
+    gap: 72px;
+}
+.detals__item{
+    display: flex;
+}
+.details__text{
+    max-width: 405px;
+}
+
+.details__absolute{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 100px;
+    color: #e7e7e7;
+}
+
+.benefit{
+    background-image: url(../img/Mask\ group\ \(7\).png);
+    background-size: cover;
+    background-position: top;
+    text-align: center;
+    padding-top:45px;
+    padding-bottom:60px;
+}
+
+
+.benefit__container {
+}
+.benefit__title {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.benefit__subtitle {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.benefit__list {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+}
+.benefit__item {
+    background-color:#fff;
+    border-radius: 4px;
+    max-width: 200px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.benefit__img {
+    margin-bottom:29px;
+}
+.benefit__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #252525;
+}
