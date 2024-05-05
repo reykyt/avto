@@ -200,13 +200,14 @@ a {
 
 .benefit__container {
 }
-.benefit__title {
+.benefit__title{
     font-family: var(--second-family);
     font-weight: 700;
-    font-size: 40px;
+    font-size: 54px;
     color: #fff;
     margin-bottom: 10px;
-}
+}   
+
 .benefit__subtitle {
     font-family: var(--font-family);
     font-weight: 400;
@@ -234,4 +235,262 @@ a {
     font-weight: 400;
     font-size: 16px;
     color: #252525;
+}
+
+
+.services{
+   padding-top: 62px;
+   padding-bottom: 90px;
+}
+.services__container{
+    text-align: center;
+}
+
+.services__subtitle{
+    max-width: 620px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.all_services{
+}
+.services__list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.services__item{
+    max-width: 265px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #D4D4D4;
+    overflow: hidden;
+    color: #252525;
+}
+.services__item:hover{
+    color: #fff;
+    background: #ed7173;
+    border-color: #ed7173;
+}
+
+
+.services__text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: inherit;
+    margin-top:14px ;
+    margin-bottom: 13px;
+}
+
+.services__link{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #252525;
+    padding: 13px 17px;
+    border: solid;
+    border-radius: 5px;
+    border-color: #D4D4D4;
+}
+
+.services__link:hover{
+    color: #fff;
+    background: #ed7173;
+    border-color: #ed7173;
+}
+
+.examples{
+    padding-top: 62px;
+    padding-bottom: 90px;
+    text-align: center;
+
+}
+        
+.examples__subtitle{
+    max-width: 896px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+
+.examples__list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.examples__item{
+    max-width: 265px;
+    max-height: 265px;
+   
+}
+.examples__link{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #252525;
+    padding: 13px 17px;
+    border: solid;
+    border-radius: 5px;
+    border-color: #D4D4D4;
+}
+.examples__link:hover{
+    color: #fff;
+    background: #ed7173;
+    border-color: #ed7173;
+}
+.feedback{
+    background-image: url(../img/Mask\ group\ \(9\).png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.overlay{
+    background-color:  rgb(7 8 8 / 80%);
+    padding-top: 80px;
+    padding-bottom: 90px;
+   height: 100%;
+    align-items: center;
+}
+.feedback__title{
+    max-width: 870px;
+    margin: 0 auto;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 68px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    gap: 20px  94px ;
+}
+
+.form__text{
+    max-width: 286px;
+    margin: 0 auto;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+.form__file{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    background: #000;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 13px 17px;
+}
+.form__file {
+	position: relative;
+	display: inline-block;
+}
+.form__file span {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+	vertical-align: middle;
+	text-align: center;
+	box-sizing: border-box;
+	border: none;
+	margin: 0;
+}
+.form__file input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+ 
+.form__right{
+    display: grid;
+    gap: 20px;
+}
+
+.form__user-info{
+    border-radius: 4px;
+    border: none;
+    resize: none;
+    outline: none;
+    display: flex;
+    padding: 13px  17px;
+    padding-right: 223px;
+}
+
+.form__btn-wrap{
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 13px 0px;
+    background-color:  rgb(7 8 8 / 80%);;
+}
+
+.form__btn{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+    background-color:  rgb(7 8 8 / 80%);;
+    border: none;
+}
+
+
+.map{
+    height: 276px;
+    background-image: url(../img/Карта.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    padding-top: 18px;
+    background: #404040;
+}
+.footer__container{
+    display: flex;
+    justify-content: center;
+    gap: 46px;
+
+}
+
+.footer__requisites{
+    display: flex;
+    column-gap: 66px;
+    margin-top: 7px;
+}
+.footer__contacts{
+    display: flex;
+    gap: 72px;
+    margin-top: 7px;
+}
+.footer__tel{
+    display: block;
+}
+
+.footer__text{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
 }
