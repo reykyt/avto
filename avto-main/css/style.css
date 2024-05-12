@@ -55,9 +55,7 @@ a {
 }
 
 .container {
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 1425px;
+    max-width: 1440px;
     margin: 0 auto;
 
 }
@@ -421,7 +419,12 @@ a {
 
 }
 
-
+.examples__item:hover {
+    background-image: url(../img/Mask\ group\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 .examples__link {
     font-family: var(--font-family);
@@ -542,6 +545,7 @@ a {
     border-radius: 4px;
     padding: 13px 0px;
     background-color: rgb(7 8 8 / 80%);
+    ;
 }
 
 .form__btn {
@@ -550,6 +554,7 @@ a {
     font-size: 16px;
     color: #fff;
     background-color: rgb(7 8 8 / 80%);
+    ;
     border: none;
 }
 

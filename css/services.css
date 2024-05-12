@@ -213,33 +213,7 @@ a {
     border: none;
 }
 
-.feeetback__subtitle-info {
-    display: flex;
-    justify-content: center;
-    column-gap: 330px;
-    margin-bottom: 36px;
-}
 
-.feeetback__tels {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    color: #fff;
-    max-width: 138px;
-}
-
-.feeetback__tel {
-    color: inherit;
-}
-
-.feeetback__location {
-    max-width: 286px;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    color: #fff;
-    text-align: left;
-}
 
 .map {
     height: 276px;

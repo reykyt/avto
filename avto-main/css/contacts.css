@@ -1,0 +1,7 @@
+.contacts__hero{
+    background: #404040;
+    color: #fff;
+    font-family: var(--second-family);
+    font-weight: 400;
+    padding-bottom: 50px;
+}

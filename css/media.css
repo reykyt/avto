@@ -1,0 +1,21 @@
+@media (max-width: 1200px) {
+    .location {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .form {
+        display: grid;
+    }
+
+    .form-left {
+        order: 1;
+        text-align: left;
+    }
+
+    .feeetback__subtitle-info {
+        column-gap: 8px;
+    }
+
+}
