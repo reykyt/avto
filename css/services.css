@@ -42,7 +42,6 @@ a {
 
 .wrapper {
     min-height: 100%;
-    background: #404040;
 }
 
 
@@ -54,15 +53,26 @@ a {
 
 }
 
-.header {
+.servises__hero {
+    background-color: #404040;
+
+}
+
+.container__header {
     display: flex;
     justify-content: space-between;
     padding-left: 40px;
     padding-right: 40px;
-    background: #404040;
+    background-color: #404040;
     color: #fff;
     font-family: var(--second-family);
     font-weight: 400;
+}
+
+.header {
+
+    background-color: #404040;
+
 }
 
 .nav__list,
@@ -98,6 +108,76 @@ a {
 .line {
     margin: 0px;
     background-color: #fff;
+}
+
+.servise {
+    text-align: center;
+    padding-top: 62px;
+    padding-bottom: 90px;
+}
+
+.servise__title {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 54px;
+    color: #e7e7e7;
+    margin-bottom: 10px;
+}
+
+.servise__subtitle {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #252525;
+    max-width: 525px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.servise__text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #252525;
+    margin-bottom: 60px;
+}
+
+.servise__list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1425px;
+    flex-wrap: wrap;
+
+
+}
+
+.serv__item {
+    text-align: left;
+    width: 360px;
+    max-height: 360px;
+    padding-top: 22px;
+    padding-bottom: 50px;
+    border: 2px solid #d4d4d4;
+    border-radius: 4px;
+}
+
+.serv__text {
+    display: flex;
+    margin-bottom: 29px;
+    justify-content: space-between;
+}
+
+.serv__title {
+    padding-left: 22px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #252525;
+}
+
+.serv__img {
+    padding-right: 22px;
 }
 
 .feedback {
